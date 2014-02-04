@@ -1967,7 +1967,7 @@
     var eachIteratorOptions = {
       'args': 'collection, callback, thisArg',
       'top': "callback = callback && typeof thisArg == 'undefined' ? callback : baseCreateCallback(callback, thisArg, 3)",
-      'array': "typeof length == 'number'",
+      'array': false,
       'keys': keys,
       'loop': 'if (callback(iterable[index], index, collection) === false) return result'
     };
