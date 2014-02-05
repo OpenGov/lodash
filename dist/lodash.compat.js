@@ -1967,7 +1967,7 @@
     var eachIteratorOptions = {
       'args': 'collection, callback, thisArg',
       'top': "callback = callback && typeof thisArg == 'undefined' ? callback : baseCreateCallback(callback, thisArg, 3)",
-      'array': false,
+      'array': "typeof jQuery != 'undefined' && (iterable instanceof jQuery)",
       'keys': keys,
       'loop': 'if (callback(iterable[index], index, collection) === false) return result'
     };

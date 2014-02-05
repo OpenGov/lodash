@@ -1,6 +1,6 @@
 {
   "name": "lodash",
-  "version": "2.4.1-no-object-length-support",
+  "version": "2.4.1-no-object-length-support-unless-jquery",
   "main": "dist/lodash.compat.js",
   "ignore": [
     ".*",
